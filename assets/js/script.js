@@ -1,8 +1,11 @@
-function validaUsuario(usuario, senha) {
-    return usuario === 'pedro' && senha == '1234';
+let count = 0;
+
+function add() {
+    let count = 0;    
+    count += 10;
 }
 
-let usuario = 'pedro';
-let senha = 1234;
+add();
+add();
 
-console.log('Usuário logou? ' + (validaUsuario(usuario, senha) ? 'Sim' : 'Nâo'));
+console.log(count);
