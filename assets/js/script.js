@@ -1,11 +1,7 @@
-let count = 0;
+const sumSquare = (a, b) => {
+    const square = x => x * x
 
-function add() {
-    let count = 0;    
-    count += 10;
+    return square(a) + square(b)
 }
 
-add();
-add();
-
-console.log(count);
+console.log(sumSquare(5, 5));
