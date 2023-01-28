@@ -1,21 +1,31 @@
-// const fruits = ['Maçã', 'Banana', 'Limão', 'Cereja', 'Morango', 'Abacaxi'];
+let ingredients = ['Farinha', 'Ovos', 'Manteiga', 'Óleo', 'Água'];
 
-// let tenths = [10, 20, 30, 40, 50, 60];
+// ingredients[5] = 'Creme';
 
-// fruits.map(fruit => { console.log(fruit) });
+// ingredients[18] = 'Biscoito';
 
-// console.log(tenths[3]);
+// ingredients.push('Creme');
 
-// function squares(numbers) {
-//     return numbers.map(number => number * number);
-// }
+// ingredients.pop();
 
-// let numbers = [1, 2, 3, 4, 5];
+// console.log(`Quantidade de ingredientes: ${ingredients.length}`);
 
-// let numbersDouble = squares(numbers);
+// console.log('Listando ingredientes: ');
 
-// numbersDouble.map(number => {console.log(number)});
 
-let arrayOfArrays = [[1, 2, 3], ['Pedro', 'Zé', 'Maria']];
+// ingredients.map(ingredient => {
+//     console.log(ingredient);
+// });
 
-console.log(arrayOfArrays[1][1]);
+let cars = [];
+
+cars.push('Mustang');
+cars.push('Camaro');
+cars.push('Ferrari');
+cars.push('Porsche');
+
+cars.map(car => { console.log(car) })
+
+cars.shift();
+
+cars.map(car => { console.log(car) })
