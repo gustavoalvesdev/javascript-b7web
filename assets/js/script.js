@@ -1,10 +1,10 @@
-let personagem = {
+let pessoa = {
     nome: 'Bonieky',
+    sobrenome: 'Lacerda',
     idade: 90,
-    carros: [
-        {modelo: 'Fiat', cor: 'preto'},
-        {modelo: 'Ferrari', cor: 'vermelho'}
-    ]
+    nomeCompleto: function() {
+        return `${this.nome} ${this.sobrenome}`
+    }
 }
 
-console.log(personagem.carros[1].modelo);
+console.log(pessoa.nomeCompleto());
