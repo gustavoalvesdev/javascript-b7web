@@ -1,10 +1,3 @@
-let pessoa = {
-    nome: 'Bonieky',
-    sobrenome: 'Lacerda',
-    idade: 90,
-    nomeCompleto: function() {
-        return `${this.nome} ${this.sobrenome}`
-    }
-}
-
-console.log(pessoa.nomeCompleto());
+for (let i = 0; i < 10; i+=2) {
+    console.log('Repetindo 10 vezes');
+}   
