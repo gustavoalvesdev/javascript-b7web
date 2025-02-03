@@ -1,14 +1,12 @@
-// 1. Faça um loop que mostre todas as frutas
-let fruits = ['Maçã', 'Uva', 'Banana']
+let fruits = ['Maçã', 'Uva', 'Laranja', 'Banana']
 
-for (let i = 0; i < fruits.length; i++) {
-    console.log(fruits[i])
-}
 
-// 2. Conte de 1 até 100 através de um WHILE
-let numero = 1
 
-while (numero <= 100) {
-    console.log(numero)
-    numero++
-}
+console.log(fruits.join(' / '))
+
+fruits[fruits.length - 1] = 'Pêra'
+
+fruits.pop()
+fruits.push('Limão')
+
+console.log(fruits)
