@@ -1,7 +1,14 @@
-while (true) {
-    console.log(`Meu nome é pedro`)
-    let nome = prompt('Qual seu nome?')
-    if (nome.toLowerCase() != 'pedro') break
+// 1. Faça um loop que mostre todas as frutas
+let fruits = ['Maçã', 'Uva', 'Banana']
+
+for (let i = 0; i < fruits.length; i++) {
+    console.log(fruits[i])
 }
 
-console.log('Saiu do loop')
+// 2. Conte de 1 até 100 através de um WHILE
+let numero = 1
+
+while (numero <= 100) {
+    console.log(numero)
+    numero++
+}
