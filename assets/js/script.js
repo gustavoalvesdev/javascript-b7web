@@ -1,9 +1,15 @@
-let cars = [
-    {brand: 'Fiat', year: 2022},
-    {brand: 'Bmw', year: 2018},
-    {brand: 'Ferrari', year: 2020}
-]
+let fruits = ['Banana', 'Laranja', 'Maçã', 'Pêra', 'Uva']
 
-cars.sort((a, b) => a.year - b.year)
+//let bigFruits = fruits.filter(fruitName => fruitName.length > 4)
 
-console.log(cars)
+//console.log(bigFruits)
+
+// let verdadeiro = fruits.every(fruitName => fruitName.length > 3)
+
+// console.log(verdadeiro ? 'Todas são maiores do que 3' : 'Não são maiores do que 3')
+
+// let verdadeiro = fruits.some(fruitName => fruitName.length > 3)
+// console.log(verdadeiro ? 'Algumas são maiores do que 3' : 'Não sõa maiores do que 3')
+
+let temUva = fruits.includes('Uva')
+console.log(temUva ? 'Sim tem uva' : 'Não tem uva')
