@@ -1,9 +1,6 @@
-/**
- * Programação Orientada a Objetos (POO)
- * OOP (Object Oriented Programming)
- * Programação Funcional 
- * Functional Programming
- * Programação Procedural
- * - CLASSES
- * - FUNÇÕES / OBJETOS
- */
+class Person {
+    constructor(name, age) {
+        this.name = name
+        this.age = age
+    }
+}
