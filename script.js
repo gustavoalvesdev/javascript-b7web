@@ -1,29 +1,21 @@
 class Person {
-    _age = 10
-    steps = 0
+    age = 0
 
-    constructor(firstName, lastName) {
-        this.firstName = firstName
-        this.lasName = lastName
-    }
-
-    takeAStep() { this.step++ }
-
-    get age() { return this._age }
-
-    get fullName() {
-        return `${this.firstName} ${this.lasName}`
-    }
-
-    set age(newAge) {
-        if (typeof newAge == 'number') this._age = newAge
+    constructor(name) {
+        this.name = name
     }
 }
 
+class Student extends Person {
+    grade = 0
 
-let p1 = new Person('João', 'Silva')
-let p2 = new Person('Maria', 'Leite')
-let p3 = new Person('Pedro', 'Duarte')
+    constructor(name, grade) {
+        super(name)
+        this.grade = grade
+    }
+}
 
-p1.age = 20
-console.log(`${p1.fullName} tem ${p1.age} anos`)
+let student = new Student('Maria', 5)
+student.age = 25
+
+console.log(student)
