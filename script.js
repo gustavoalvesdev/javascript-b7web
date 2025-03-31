@@ -1,21 +1,15 @@
 class Person {
     age = 0
 
+    static hands = 2
     constructor(name) {
         this.name = name
     }
-}
 
-class Student extends Person {
-    grade = 0
-
-    constructor(name, grade) {
-        super(name)
-        this.grade = grade
+    static sayHi() {
+        console.log(`Oi`)
     }
 }
 
-let student = new Student('Maria', 5)
-student.age = 25
-
-console.log(student)
+p1 = new Person()
+p1.sayHi()
