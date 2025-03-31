@@ -1,15 +1,19 @@
 class Person {
-    age = 0
 
-    static hands = 2
+    age = 0
+    
     constructor(name) {
         this.name = name
     }
 
-    static sayHi() {
-        console.log(`Oi`)
-    }
 }
 
-p1 = new Person()
-p1.sayHi()
+function createPerson(name ,age) {
+    let p = new Person(name)
+    p.age = age
+    return p
+}
+
+let p1 = createPerson('Bonieky', 90)
+
+console.log(`${p1.name} tem ${p1.age} anos`)
