@@ -8,4 +8,4 @@ const stage = new Stage(
     document.querySelector('#monster')
 )
 
-stage.update()
+stage.start()
