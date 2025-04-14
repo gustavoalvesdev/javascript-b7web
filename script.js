@@ -1,14 +1,12 @@
-let log = new Log(document.querySelector('.log'))
+function createPerson(name, lastName, age) {
+    return {
+        name, 
+        lastName,
+        age
+    }
+}
 
-let char = new Sorcerer('Bonieky')
-let monster = new LittleMonster()
+let person1 = createPerson('Bonieky', 'Lacerda', 90)
+let person2 = createPerson('Junior', 'Fulano', 20)
 
-const stage = new Stage(
-    char, 
-    monster,
-    document.querySelector('#char'),
-    document.querySelector('#monster'),
-    log
-)
-
-stage.start()
+console.log(person1.name)
