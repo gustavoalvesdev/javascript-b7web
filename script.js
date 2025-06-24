@@ -1,5 +1,5 @@
-const char = createKnight('Bonieky')
-const monster = createLittleMonster()
+const char = createSorcerer('Bonieky')
+const monster = createBigMonster()
 
 stage.start(
     char,
