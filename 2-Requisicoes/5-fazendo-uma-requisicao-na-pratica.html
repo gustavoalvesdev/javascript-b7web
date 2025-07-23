@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Olá, JavaScript!</h1>
+
+    <button id="botao">Carregar Primeiro Post</button>
+
+    <script>
+
+       
+        const url = 'https://jsonplaceholder.typicode.com/posts'
+
+        document.querySelector('#botao').addEventListener('click', () => {
+            fetch(url)
+                .then(response => {
+                    return response.json()
+                })
+                    .then(json => {
+                        alert(`Título do Primeiro Post: ${json[0].title}`)
+                    })
+        })
+
+    </script>
+    
+</body>
+</html>
