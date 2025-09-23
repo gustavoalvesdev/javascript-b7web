@@ -21,6 +21,12 @@
                 .then((json) => {
                     alert(`Título do primeiro post: ${json[0].title}`);
                 })
+                .catch((erro) => {
+                    alert('Deu erro, manolo!');
+                })
+                .finally(() => {
+                    alert('Acabou a requisição, vá embora!');
+                });
                 
             alert('Opa, clicou!');
 
