@@ -1,8 +1,5 @@
 # javascript-b7web
 
-- Como ver as requisições acontecendo
-- Entendendo Promises
-- Gerenciando erros no Promise
 - Tipos de status de uma requisição
 - Métodos de envio de requisição
 - Promises com async/await
