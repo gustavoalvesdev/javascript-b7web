@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entendendo Promise</title>
+</head>
+<body>
+    
+    <h1>Olá Javascript</h1>
+
+    <button id="botao">Carregar primeiro post</button>
+
+    <button id="inserir">Inserir novo post</button>
+
+    <script>
+
+        const url = 'https://jsonplaceholder.typicode.com/posts';
+        async function clicou() {
+
+            let response = await fetch(url)
+            let json = await response.json()
+            alert(`Título do primeiro post: ${json[0].title}`)
+                
+            alert('clicou!');
+
+        }
+
+        function somar(x, y) {
+            return x + y;
+        }
+
+        const inserir = async() => {
+
+            let response = await fetch(url, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    title: 'Título de Teste',
+                    body: 'Corpo de Teste',
+                    userId: 2
+                })
+            })
+
+            const json = await response.json()
+
+            console.log(json)
+        }
+
+        document.querySelector('#botao').addEventListener('click', clicou);
+        document.querySelector('#inserir').addEventListener('click', inserir);
+    </script>
+
+</body>
+</html>
