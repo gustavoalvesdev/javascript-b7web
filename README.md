@@ -1,47 +1,93 @@
-# javascript-b7web
+# 📘 JavaScript B7Web
 
-- Tipos de status de uma requisição
-- Métodos de envio de requisição
-- Promises com async/await
-- Projeto: blog do JSONPlaceholder
+Este repositório contém exercícios, exemplos e pequenos projetos desenvolvidos durante o estudo de **JavaScript** com base no curso da **B7Web**.
 
-## Manipulações, Arrow, Ajax, etc
-- Métodos de String (1/3)
-- Métodos de String (2/3)
-- Métodos de String (3/3)
-- Métodos de Numbers
-- Métodos de Arrays (1/4)
-- Métodos de Arrays (2/4)
-- Métodos de Arrays (3/4)
-- Métodos de Arrays (4/4)
-- Datas (1/3)
-- Datas (2/3)
-- Datas (3/3)
-- Matemática
-- Intervalos (1/2)
-- Intervalos (2/2)
-- Template Strings
-- Desconstruindo Objetos (1/2)
-- Desconstruindo Objetos (2/2)
-- Desconstruindo Arrays
-- Arrow Functions- Operador Spread
-- Operador Rest
-- Includes e Repeat
-- Objeto: Key, Values e Entries
-- String, padStart, padEnd
+O objetivo é praticar os fundamentos da linguagem de forma progressiva e prática.
 
-## Requisições e Assincronismo
-- O que são requisições?
-- O que é JSON
-- JSON.parse
-- JSON.stringify
-- Código síncrono vs assíncrono
-- Callbacks
-- Promises
-- Fetch 1 
-- Fetch 2
-- Async e Await
-- Fetch com POST
-- Upload de arquivos com JS
-- Thumbnails com JS
-- Thumbnails com FileReader
+---
+
+## 🎯 Objetivo do projeto
+
+- Aprender JavaScript do zero
+- Fixar conceitos fundamentais da linguagem
+- Praticar lógica de programação
+- Trabalhar com manipulação do DOM
+- Desenvolver pequenos projetos práticos
+
+Este repositório funciona como um **diário de estudos** e material de consulta.
+
+---
+
+## 🧠 Conteúdos estudados
+
+Entre os principais tópicos abordados estão:
+
+- Variáveis e tipos de dados
+- Operadores e condicionais
+- Laços de repetição
+- Funções
+- Arrays e objetos
+- Manipulação do DOM
+- Eventos
+- Projetos práticos com JavaScript puro
+
+---
+
+## 📁 Estrutura do projeto
+
+/
+├── aula01-introducao
+├── aula02-variaveis
+├── aula03-funcoes
+├── aula04-dom
+├── projetos
+│   ├── projeto-pizzaria
+│   ├── projeto-jogo-da-velha
+│   └── projeto-relógio
+└── README.md
+
+Cada pasta contém arquivos `.html`, `.css` e `.js` relacionados ao conteúdo estudado.
+
+---
+
+## 🚀 Como executar os exemplos
+
+1. Clone o repositório:
+
+```bash
+git clone https://github.com/gustavoalvesdev/javascript-b7web.git
+```
+
+2. Acesse a pasta do projeto desejado
+
+3. Abra o arquivo `.html` diretamente no navegador.
+
+Não é necessário instalar dependências - os projetos utilizam apenas **HTML**, **CSS** e **JavaScript** puro.
+
+---
+
+## 🧪 Projetos práticos
+
+Alguns exemplos de projetos desenvolvidos:
+
+- ⏰ Relógio digital
+- 🕹️ Jogo da velha
+- 🍕 Simulador de pizzaria / carrinho de compras
+- 📋 Exercícios de lógica e DOM
+
+---
+
+## 📝 Observações
+
+- Este repositório é voltado para aprendizado e prática.
+- O código pode conter soluções simples e didáticas
+- Refatorações e melhorias podem ser feitas ao longo do tempo
+
+---
+
+## 📄 Licença
+
+Este projeto está sob a licença **MIT**.
+Sinta-se livre para estudar, modificar e realizar o código.
+
+👨‍💻 Desenvolvido por **Gustavo Alves**
