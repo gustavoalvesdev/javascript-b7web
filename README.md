@@ -35,16 +35,17 @@ Entre os principais tópicos abordados estão:
 
 ## 📁 Estrutura do projeto
 
+```
 /
-├── aula01-introducao
-├── aula02-variaveis
-├── aula03-funcoes
-├── aula04-dom
+├── aula01
+├── aula02
+├── aula03
 ├── projetos
-│   ├── projeto-pizzaria
+│   ├── projeto-relogio
 │   ├── projeto-jogo-da-velha
-│   └── projeto-relógio
+│   └── projeto-pizzaria
 └── README.md
+```
 
 Cada pasta contém arquivos `.html`, `.css` e `.js` relacionados ao conteúdo estudado.
 
