@@ -1,16 +1,18 @@
 let pessoa = {
     nome: 'Gustavo',
-    sobrenome: 'Alves',
+    idade: 34,
     social: {
         facebook: 'devgugaofc',
-        instagram: 'gustavoalvesmarketing'
-    },
-    nomeCompleto: function() {
-        return `${this.nome} ${this.sobrenome}`;
+        instagram: {
+            url: 'gsutavoalvesmarketing',
+            seguidores: 35
+        }
     },
 };
 
 
-let { nome, sobrenome, idade = 0 } = pessoa;
+function pegarNomeCompleto({ nome, sobrenome = 'Silva' , social: { instagram: { url: instagram } }}) {
+    return `${nome} ${sobrenome} Siga em @${instagram}`;
+}
 
-console.log(nome, sobrenome, idade);
+console.log(pegarNomeCompleto(pessoa));
